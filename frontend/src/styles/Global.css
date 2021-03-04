@@ -1,0 +1,37 @@
+body,
+html,
+#root {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+button {
+    background: #7a7a7a;
+    width: 100px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.87);
+    text-transform: uppercase;
+}
+
+input {
+    background: #424242;
+    padding: 15px 20px;
+    width: 100%;
+    border: none;   
+    color: rgba(255, 255, 255, 0.87);
+
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+}
